@@ -1,0 +1,35 @@
+.tool-bar-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.tool-bar-tab-container {
+  display: flex;
+  list-style-type: none;
+  padding: 0;
+}
+
+.tool-bar-tab-container .tool-bar-tab-item {
+  padding: 0.5rem;
+  cursor: pointer;
+  position: relative;
+}
+
+.tool-bar-tab-container .tool-bar-tab-item:hover {
+  background-color: rgb(244, 239, 253);
+}
+
+.tool-bar-tab-item-active {
+  font-weight: bold;
+}
+
+.tool-bar-tab-item-active:after {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 2px;
+  background-color: rgb(63, 43, 102);
+  bottom: 0;
+  left: 0;
+}

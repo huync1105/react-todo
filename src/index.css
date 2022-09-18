@@ -11,3 +11,20 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.btn {
+  padding: 0.5rem;
+  border: none;
+  border-radius: 0.25rem;
+  cursor: pointer;
+}
+
+.btn-primary {
+  background-color: rgb(71, 55, 109);
+  color: #fff;
+}
+
+.btn-warning {
+  background-color: rgb(240, 130, 130);
+  color: rgb(71, 33, 33);
+}
